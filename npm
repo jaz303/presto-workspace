@@ -1,0 +1,8 @@
+#!/bin/sh
+
+BASEDIR=`dirname $0`/presto-node
+
+NPM=${BASEDIR}/deps/npm/bin/npm-cli.js
+
+"${BASEDIR}/node" "$NPM" "$@"
+
